@@ -29,4 +29,11 @@ public class Television {
     public void setTvOnOff(boolean onOff){
         this.turnOn = onOff;
     }
+    
+    public void showData(){
+        System.out.println("Tv is on(true)/off (false): " + isTvOn());
+        System.out.println("Program no: " + getCurrentProgram());
+        System.out.println("Volume: " + getVolume());
+        System.out.println("");
+    }
 }

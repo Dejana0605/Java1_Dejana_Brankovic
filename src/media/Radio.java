@@ -28,4 +28,10 @@ public class Radio {
     public void setBand(char band){
         this.band = band;
     }
+    
+    public void showData(){
+        System.out.println("FM Frequency is: " + getFmFrequency());
+        System.out.println("AM Frequency is: " + getAmFrequency());
+        System.out.println("Band is: " + getBand());
+    }
 }
